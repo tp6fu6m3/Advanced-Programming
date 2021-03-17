@@ -4,6 +4,7 @@ using namespace std;
 
 struct StuData{
 	int age;
+	int number;
 	float score;
 } student[10];
 
@@ -29,7 +30,10 @@ int main(int argc, char *argv[])
         scoreFile >> student[i].score;
 	scoreFile.close();
 	
-	if(std::string(argv[1]) == "--compare_age")
+	for(int i=0; i<10; i++)
+        student[i].number = i;
+	
+	if(argc > 1 && std::string(argv[1]) == "--compare_age")
 		qsort(student, 10, sizeof(student[0]), cmp_age);
 	else
 		qsort(student, 10, sizeof(student[0]), cmp_score);
@@ -38,7 +42,7 @@ int main(int argc, char *argv[])
     outputFile.open("../data/output.txt");
 	outputFile << "name" << "\t" << "age" << "\t" << "score" << endl;
 	for(int i=0; i<10; i++)
-        outputFile << "Stud" << i << "\t" << student[i].age << "\t" << student[i].score << endl;
+        outputFile << "Stud" << student[i].number << "\t" << student[i].age << "\t" << student[i].score << endl;
     outputFile.close();
 	
 	return 0;
