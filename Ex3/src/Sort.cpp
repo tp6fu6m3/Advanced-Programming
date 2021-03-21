@@ -81,7 +81,7 @@ int cmp_score(const void *a ,const void *b){
 
 int main(int argc, char *argv[])
 {
-	cout<<"Number of elements for quick sort:";
+	cout<<"Number of elements for sorting:";
 	int N;
 	cin>>N;
 	struct StuData student[N];
