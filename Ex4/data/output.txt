@@ -1,0 +1,10 @@
+object0 object1 object2 
+object0 object1 object3 
+object0 object1 object4 
+object0 object2 object3 
+object0 object2 object4 
+object0 object3 object4 
+object1 object2 object3 
+object1 object2 object4 
+object1 object3 object4 
+object2 object3 object4 
