@@ -5,9 +5,9 @@
 #define N 8 
 using namespace std;
 
-bool column[N] = {0};
-bool slash[2 * N] = {0};
-bool backSlash[2 * N] = {0};
+bool column[N] = {false};
+bool slash[2*N] = {false};
+bool backSlash[2*N] = {false};
 int queens[N] = {0}; 
 ofstream outputFile;
 
