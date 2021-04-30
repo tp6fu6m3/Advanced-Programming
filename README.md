@@ -44,6 +44,12 @@ Advanced-Programming
 │   │   └── output.txt
 │   └── src
 │       └── EightQueen.cpp
+├── Ex6
+│   ├── data
+│   │   ├── output.csv
+│   │   └── sudoku.csv
+│   └── src
+│       └── sudoku.cpp
 ├── ...
 └── ExN
 
