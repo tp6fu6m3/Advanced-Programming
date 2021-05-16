@@ -1,0 +1,5 @@
+time in seconds,selectionSort,insertionSort,bubbleSort
+random,0,0,0
+increasing,0,0,0
+decreasing,0,0,0
+semi-ordered,0,0,0

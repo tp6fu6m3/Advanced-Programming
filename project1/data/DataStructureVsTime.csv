@@ -1,0 +1,3 @@
+time in seconds,bubbleSort,insertionSort,selectionSort
+Complex data structure,1.731,1.389,1.573
+Simple data structure,2.284,1.13,0.962
